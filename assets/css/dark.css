@@ -1,28 +1,22 @@
 body {
-  background-color: #1e1e1e;
-  color: #e0e0e0;
+  background-color: #120303;
 }
 
 a {
-  color: #90caf9;
+  color: yellow;
 }
 
 a:hover {
-  color: #bbdefb;
-}
-
-.site-title,
-.site-nav {
-  color: #ffffff;
+  color: #989800;
 }
 
 header, footer {
-  background-color: #1e1e1e;
+  background-color: #11030300;
   color: #9f988c;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
+  color: #30b3ff;
 }
 
 strong, b {
@@ -30,7 +24,7 @@ strong, b {
 }
 
 section p, section li {
-  color: #9f988c;
+  color: #cdc2b0;
 }
 
 section img {
