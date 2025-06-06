@@ -68,7 +68,7 @@
 			function setTheme(theme) {
         if (theme === 'dark') {
           darkModeStylesheet.disabled = false;
-          themeToggleIcon.className = 'fa fa-moon-o';
+          themeToggleIcon.className = 'far fa-moon';
           themeToggleLabel.textContent = 'Dark mode';
           themeToggleButton.style.backgroundColor = '#333';
           themeToggleButton.style.color = '#f0f0f0';
@@ -76,7 +76,7 @@
           localStorage.setItem('theme', 'dark');
         } else {
           darkModeStylesheet.disabled = true;
-          themeToggleIcon.className = 'fa fa-sun-o';
+          themeToggleIcon.className = 'far fa-sun';
           themeToggleLabel.textContent = 'Light mode';
           themeToggleButton.style.backgroundColor = '#f0f0f0';
           themeToggleButton.style.color = '#333';
